@@ -30,7 +30,7 @@ electrokinesis = Power.create(name: "Electrokinesis", description: "Electrokines
 electromagnetic = Power.create(name: "Electromagnetic", description: "Ability to manipulate energy wavelengths around , shattering glass and screens simply by focusing intensely on the object")
 
 #HeroPower -joint table
-HeroPower.create(hero_id: homelander.id, power_id: flight.id, xray.id, strength: "Strong")
+HeroPower.create(hero_id: homelander.id, power_id: flight.id, strength: "Strong")
 HeroPower.create(hero_id: starlight.id, power_id: electrokinesis.id, strength: "Average")
 HeroPower.create(hero_id: soldierboy.id, power_id: xray.id, strength: "Strong")
 HeroPower.create(hero_id: maeve.id, power_id: agility.id, strength: "Strong")
