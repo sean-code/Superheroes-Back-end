@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## SUPERHEROES API
 
-Things you may want to cover:
+Here goes a rails API comprising heroes, hero_powers(joint table) and powers. The characters used are from the comic and Amazon Prime's TV show entitled 
+#### The Boys.
 
-* Ruby version
+## ENDPOINTS
 
-* System dependencies
+The valid endpoints for the API include:
+* GET /heroes
+* GET /heroes/:id
 
-* Configuration
+* GET /powers
+* GET /powers/:id
 
-* Database creation
+* PATCH /powers/:id
+* POST /hero_powers
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
