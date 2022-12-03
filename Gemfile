@@ -47,4 +47,4 @@ group :development do
 end
 
 
-gem "serializer"
+gem "active_model_serializers"
