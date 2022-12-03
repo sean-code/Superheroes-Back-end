@@ -1,4 +1,4 @@
 class HeroPowerSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :name
   belongs :hero
 end
