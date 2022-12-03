@@ -6,8 +6,10 @@ class PowersController < ApplicationController
 
     def show
         power = Power.find_by(id: params[:id])
-        render json: power, status: :ok
+        if power
+            render json: power, status: :ok
+        else
+            render json: {error: 'Power Not Found'}, status: :not_found
+        end
     end
 end
-
-
