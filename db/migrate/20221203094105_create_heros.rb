@@ -3,7 +3,6 @@ class CreateHeros < ActiveRecord::Migration[7.0]
     create_table :heros do |t|
       t.string :name
       t.string :super_name
-
       t.timestamps
     end
   end
