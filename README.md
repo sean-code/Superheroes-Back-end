@@ -10,8 +10,8 @@ Here goes a rails API comprising heroes, hero_powers(joint table) and powers. Th
 
 ## API Set-up Instructions
 - Clone this repository to your local environment (machine):
-    * - ` git clone git@github.com:sean-code/Superheroes-Code-Challenge.git` -- for SSH link.
-    * - Or `git clone https://github.com/sean-code/Superheroes-Code-Challenge.git` -- for the HTTPS link
+    * - ` git clone git@github.com:sean-code/Superheroes-Back-end.git` -- for SSH link.
+    * - Or `git clone https://github.com/sean-code/Superheroes-Back-end.git` -- for the HTTPS link
 - Then run:
     * `bundle install`
     * `rails db:migrate db:seed`
