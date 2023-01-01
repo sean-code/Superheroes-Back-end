@@ -58,7 +58,7 @@ The valid endpoints for the API include:
 ## Technology Used
 * Ruby
 * Rails
-* sqlite3
+* Postgres
 
 ## License Information
 MIT License\
