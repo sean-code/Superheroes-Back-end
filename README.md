@@ -7,6 +7,11 @@
 
 Here goes a rails API comprising heroes, hero_powers(joint table) and powers. The characters used are from the comic and Amazon Prime's TV show entitled THE BOYS.
 
+The Backend deployment link is https://theboys-production.up.railway.app/
+
+- For superheroes https://theboys-production.up.railway.app/heroes
+- For powers https://theboys-production.up.railway.app/powers
+
 
 ## API Set-up Instructions
 - Clone this repository to your local environment (machine):
